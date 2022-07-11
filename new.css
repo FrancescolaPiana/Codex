@@ -1,0 +1,84 @@
+/* all box size border box */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image:url('background.jpg');
+  background-size:cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  display: inline-block;
+  text-align: center;
+  font-size: 100%;
+  color: rgb(0, 221, 0);  /* the logo color */
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+nav{
+  display: inline-block;
+  background-color: rgb(0, 221, 0);
+  margin: auto;
+  padding-left: 35% ;
+  padding-right: 35%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+section{
+  color: white;
+  margin-top: 2%;
+  font-weight: 200;
+}
+
+ul{
+  list-style-type: square;
+  padding-left: 2%;
+}
+
+ul, p, .nomargin{
+  margin:0px 0px 0px 0px;
+}
+
+.greysquare{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 2%;
+  padding: 4%;
+}
+
+#logo{
+  width: 38%;
+}
+
+/* DA QUI IN POI HO USATO I COLORI ESADECIMALI PER VARIARE */
+
+#vehicle1{
+  width: 375px;
+  height: 32px;
+  background-color: #F5B453;
+  border-radius: 5px;
+}
+
+#vehicle2{
+  width: 680px;
+  height: 32px;
+  background-color: #1EC31E;
+  border-radius: 5px;
+}
+
+#vehicle3{
+  width: 160px;
+  height: 32px;
+  background-color: #BE4141;
+  border-radius: 5px;
+}
+
+/* P.S.non capisco perchè i codici &fffff
+che servono a richiamare i simboli
+da css content non me li applica. */
